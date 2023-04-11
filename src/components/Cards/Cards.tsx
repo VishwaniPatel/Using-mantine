@@ -96,12 +96,19 @@ const Cards = () => {
             </Card.Section>
 
             <Group position="apart" mt="md" mb="xs">
-              <Text weight={500}>Norway Fjord Adventures</Text>
+              <Text weight={500}>Norway Fjord</Text>
               <Badge color="pink" variant="light">
                 On Sale
               </Badge>
             </Group>
-            <Rating></Rating>
+            <Group position="apart" mt="md" mb="xs">
+              <Rating></Rating>
+              <Text weight={300}>Norway Fjord</Text>
+              <Badge color="pink" variant="light">
+                On Sale
+              </Badge>
+            </Group>
+
             <Text size="sm" color="dimmed">
               With Fjord Tours you can explore more of the magical fjord
               landscapes with tours and activities on and around the fjords of
